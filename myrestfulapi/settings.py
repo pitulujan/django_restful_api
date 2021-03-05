@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'authentication',
+    'tasks',
 ]
 
 CORS_ALLOW_CREDENTIALS = True # to accept cookies via ajax request

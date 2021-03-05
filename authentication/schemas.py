@@ -1,14 +1,6 @@
 from marshmallow import Schema, fields, post_load
 from .models import User
 
-
-class TaskSchema(Schema):
-    _id = fields.Str(required=True)
-    title = fields.Str()
-    description = fields.Str()
-    done = fields.Bool()
-
-
 class UserSchema(Schema):
     _id = fields.Str(required=True)
     username = fields.Str()
